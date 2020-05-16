@@ -17,11 +17,13 @@ const App = () => {
                     <Route exact path="/">
                         <div>
                             <h2>Henlo</h2>
+                            <h3>Stuff will go here...</h3>
                         </div>
                     </Route>
                     <Route exact path="/protest">
                         <div>
                             <h2>Rawr fite me!</h2>
+                            <h4>Go with friends!</h4>
                         </div>
                     </Route>
                     <Route exact path="/404" component={Unknown}/>
