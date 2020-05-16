@@ -5,10 +5,10 @@ header {
     font-size: calc(10px + 2vmin);
     justify-content: center;
     align-items: center;
-    height: 10rem;
+    height: 8rem;
 }
 
-.header-link {
+header > a {
     display: flex;
     color: #61dafb;
     align-items: center;

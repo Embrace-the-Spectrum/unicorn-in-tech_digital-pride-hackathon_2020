@@ -8,7 +8,7 @@ import './Header.css';
 const Header = () => {
     return (
         <header>
-            <Link to="/" className="header-link">
+            <Link to="/">
                 <img src={logo} className="header-logo" alt="logo"/>
                 <h1>
                     Pride Through Protest
