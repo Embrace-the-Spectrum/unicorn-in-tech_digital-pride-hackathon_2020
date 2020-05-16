@@ -16,14 +16,14 @@ const App = () => {
                 <Switch>
                     <Route exact path="/">
                         <div>
-                            <h2>Henlo</h2>
-                            <h3>Stuff will go here...</h3>
+                            <h2>Welcome</h2>
+                            <h3>I am a...</h3>
                         </div>
                     </Route>
                     <Route exact path="/protest">
                         <div>
-                            <h2>Rawr fite me!</h2>
-                            <h4>Go with friends!</h4>
+                            <h2>SPEAKER</h2>
+                            <h4>LISTENER</h4>
                         </div>
                     </Route>
                     <Route exact path="/404" component={Unknown}/>
