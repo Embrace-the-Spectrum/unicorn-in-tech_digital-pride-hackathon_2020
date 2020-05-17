@@ -8,6 +8,9 @@ In the backend project directory, you can run:
 
 ### `node index.js`
 
+Runs the app in the development mode.<br />
+Open [http://localhost:4000](http://localhost:4000) to open [GraphQL Playground](apollographql.com/docs/apollo-server/testing/graphql-playground/) which can be used to test queries.
+
 In the frontend project directory, you can run:
 
 ### `npm start`
