@@ -1,5 +1,9 @@
 .app {
     text-align: center;
-    background-image: url("https://i.ibb.co/RbvKNkp/blue-and-red-galaxy-artwork-1629236.jpg");
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    text: white;
+    background-image: url("https://i.ibb.co/LdBdGrh/purple-and-blue-painting-3080654.jpg");
     background-repeat: repeat;
+    background-size: 250%;
 }
