@@ -10,6 +10,8 @@ import './App.css';
 const App = () => {
     return (
         <BrowserRouter>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
             <div className="app">
                 <Header/>
                 <Navigation/>
@@ -22,8 +24,8 @@ const App = () => {
                     </Route>
                     <Route exact path="/protest">
                         <div>
-                            <h2>SPEAKER</h2>
-                            <h4>LISTENER</h4>
+                            <h2><button type="button" class="btn btn-outline-light">SPEAKER</button></h2>
+                            <h4><button type="button" class="btn btn-outline-light">LISTENER</button</h4>
                         </div>
                     </Route>
                     <Route exact path="/404" component={Unknown}/>
